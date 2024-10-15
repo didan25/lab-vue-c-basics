@@ -25,9 +25,9 @@ const posts= ref([
 <template>
     <div>
     <div v-for="(post, index) in posts" :key="index">
-        <h2> {{ post.title }}</h2>
-        <p>Description:</p>
-        <p>Content:</p>
+        <h2>{{ post.title }}</h2>
+        <p>Description: {{ post.description }}</p>
+        <p>Content: {{ post.content }}</p>
     </div>
 </div>
   
